@@ -5,18 +5,14 @@
       <config />
     </shared>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="72be4ac0-60a9-49ba-993a-dd5753942848" name="Default Changelist" comment="" />
+    <list default="true" id="005a07e4-6a6a-426b-8b62-da6b6dc7de8b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="UUQDU19117000248" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_30" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -25,44 +21,32 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view>
-          <tree_state>
-            <expand />
-            <select />
-          </tree_state>
-        </projects_view>
+        <projects_view />
       </state>
     </system>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="valueResourceFile" />
-        <option value="resourceFile" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectId" id="1hlHlMRj6XJjHt9N4ZYsGCCsiaj" />
+  <component name="ProjectId" id="1hmrgCwRd15iiV3b8dI1JAzEsy7" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="UUQDU19117000248" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-09-20T11:28:40.219Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Signing Configs" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\vimal\AndroidStudioProjects\rate-app-master\app\src\main\res\drawable-hdpi" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\vimal\AndroidStudioProjects\rate-app-master\app\src\main\res\layout" />
-      <recent name="C:\Users\vimal\AndroidStudioProjects\rate-app-master\app\src\main\res\drawable-hdpi" />
+      <recent name="C:\Users\vimal\AndroidStudioProjects\MyRateApp\app\src\main\res\drawable" />
+      <recent name="C:\Users\vimal\AndroidStudioProjects\MyRateApp\smartrateapp" />
+      <recent name="C:\Users\vimal\AndroidStudioProjects\MyRateApp\smartrateapp\src\main\java\com\indiandev\smartrateapp" />
     </key>
   </component>
   <component name="RunManager">
@@ -73,8 +57,8 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rate-app-master-app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="rate-app-master-app" />
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -126,83 +110,55 @@
     </configuration>
   </component>
   <component name="SvnConfiguration">
-    <configuration>$USER_HOME$/.subversion</configuration>
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="72be4ac0-60a9-49ba-993a-dd5753942848" name="Default Changelist" comment="" />
-      <created>1600578908620</created>
+      <changelist id="005a07e4-6a6a-426b-8b62-da6b6dc7de8b" name="Default Changelist" comment="" />
+      <created>1600627217775</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1600578908620</updated>
+      <updated>1600627217775</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="255" y="164" key="#PSD" timestamp="1600580786148">
+    <state x="255" y="164" key="#PSD" timestamp="1600627778929">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="255" y="164" key="#PSD/0.0.1474.864@0.0.1474.864" timestamp="1600580786148" />
-    <state x="543" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1600615833323">
+    <state x="255" y="164" key="#PSD/0.0.1474.864@0.0.1474.864" timestamp="1600627778929" />
+    <state x="468" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600628960695">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="543" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1474.864@0.0.1474.864" timestamp="1600615833323" />
-    <state x="418" y="160" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600579669111">
+    <state x="468" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1474.864@0.0.1474.864" timestamp="1600628960695" />
+    <state x="593" y="198" key="AndroidProcessChooserDialog" timestamp="1600629785881">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="418" y="160" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1474.864@0.0.1474.864" timestamp="1600579669111" />
-    <state x="527" y="317" width="420" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1600616781055">
+    <state x="593" y="198" key="AndroidProcessChooserDialog/0.0.1474.864@0.0.1474.864" timestamp="1600629785881" />
+    <state x="518" y="174" key="FileChooserDialogImpl" timestamp="1600627380050">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="527" y="317" width="420" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1474.864@0.0.1474.864" timestamp="1600616781055" />
-    <state x="468" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600615503329">
+    <state x="518" y="174" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1600627380050" />
+    <state x="246" y="75" key="SettingsEditor" timestamp="1600627714856">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="468" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1474.864@0.0.1474.864" timestamp="1600615503329" />
-    <state x="318" y="187" key="AndroidCreateResourceFileDialog" timestamp="1600588833903">
+    <state x="246" y="75" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1600627714856" />
+    <state x="93" y="93" width="1288" height="678" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1600627254067">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="318" y="187" key="AndroidCreateResourceFileDialog/0.0.1474.864@0.0.1474.864" timestamp="1600588833903" />
-    <state x="597" y="263" key="AndroidCreateXmlResourceDialog" timestamp="1600601202766">
+    <state x="93" y="93" width="1288" height="678" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1474.864@0.0.1474.864" timestamp="1600627254067" />
+    <state x="394" y="197" key="run.anything.popup" timestamp="1600627250000">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="597" y="263" key="AndroidCreateXmlResourceDialog/0.0.1474.864@0.0.1474.864" timestamp="1600601202766" />
-    <state x="518" y="187" key="FileChooserDialogImpl" timestamp="1600605394655">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state x="518" y="187" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1600605394655" />
-    <state width="1429" height="223" key="GridCell.Tab.0.bottom" timestamp="1600613264954">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state width="1429" height="223" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1600613264954" />
-    <state width="1429" height="223" key="GridCell.Tab.0.center" timestamp="1600613264953">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state width="1429" height="223" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1600613264953" />
-    <state width="1429" height="223" key="GridCell.Tab.0.left" timestamp="1600613264953">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state width="1429" height="223" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1600613264953" />
-    <state width="1429" height="223" key="GridCell.Tab.0.right" timestamp="1600613264953">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state width="1429" height="223" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1600613264953" />
-    <state x="403" y="149" width="738" height="606" key="find.popup" timestamp="1600600733119">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state x="403" y="149" width="738" height="606" key="find.popup/0.0.1474.864@0.0.1474.864" timestamp="1600600733119" />
-    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1600592308630">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state x="400" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1600592308630" />
+    <state x="394" y="197" key="run.anything.popup/0.0.1474.864@0.0.1474.864" timestamp="1600627250000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/vimalcvs/smartapprate/MainActivity.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/settings.gradle</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

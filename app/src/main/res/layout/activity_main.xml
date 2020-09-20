@@ -1,46 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        app:titleTextColor="@color/colorLightWhite"
-        android:background="@color/colorPrimaryDark"
-        app:navigationIcon="@drawable/ic_launcher_foreground"
-        app:titleTextAppearance="@style/TextAppearance.AppCompat.Medium.Inverse" />
-
-
-    <LinearLayout
-    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"
-    tools:context="com.vimalcvs.smartapprate.MainActivity">
-
-
-    <TextView
-        android:id="@+id/tv_title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/main_title"
-        android:textColor="@color/grey_60"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
+    tools:context=".MainActivity">
 
     <LinearLayout
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         android:id="@+id/rate_ok"
         android:background="@drawable/rounded_info"
         android:layout_width="fill_parent"
         android:layout_height="45.0dip"
-        android:layout_marginTop="@dimen/spacing_30"
+        android:layout_marginTop="30dp"
         android:layout_marginStart="48.0dip"
         android:layout_marginEnd="48.0dip"
         android:elevation="3dp">
@@ -49,13 +24,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/show_rate"
+            android:text="Show Dialog"
             android:gravity="center"
-            android:textColor="@color/colorLightWhite"
+            android:textColor="@android:color/white"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textStyle="bold"/>
 
     </LinearLayout>
 
-</LinearLayout>
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

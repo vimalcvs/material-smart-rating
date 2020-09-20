@@ -1,1 +1,3 @@
+include ':smartrateapp'
 include ':app'
+rootProject.name = "My Rate App"
