@@ -62,7 +62,7 @@ Author: [Vimal K. Vishwakarma](https://github.com/vimal)
 
 # License
 ```
-Copyright (C) 2016 Code My Brains Out
+Copyright (C) 2016 Code My Vimal K. Vishwakarma
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
