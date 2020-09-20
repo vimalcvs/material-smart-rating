@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.cardview.widget.CardView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	app:cardCornerRadius="10dp"
+	app:cardElevation="3dp"
+	app:cardUseCompatPadding="true">
+
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content">
+
+		<ImageView
+			android:layout_gravity="center_horizontal"
+			android:background="@drawable/ic_feedback"
+			android:layout_width="168.0dip"
+			android:layout_height="130.0dip"
+			android:layout_marginTop="42.0dip"/>
+
+
+
+		<TextView
+			android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+			android:textStyle="bold"
+			android:textColor="@color/colorPrimaryDark"
+			android:gravity="center"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="40.0dip"
+			android:text="@string/feedback"
+			android:textAllCaps="false"/>
+
+
+
+		<LinearLayout
+			android:gravity="center"
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10.0dip"
+			android:layout_marginBottom="10.0dip">
+
+			<EditText
+				android:gravity="start"
+				android:id="@+id/et_feedback"
+				android:background="@drawable/background"
+				android:padding="8dp"
+				android:layout_width="match_parent"
+				android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+				android:layout_height="match_parent"
+				android:layout_marginLeft="@dimen/spacing_large"
+				android:layout_marginTop="@dimen/spacing_large"
+				android:layout_marginRight="@dimen/spacing_large"
+				android:layout_marginBottom="@dimen/spacing_middle"
+				android:hint="@string/write_your_feedback_here"
+				android:lines="5" />
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:background="@drawable/rounded_info"
+			android:layout_width="fill_parent"
+			android:layout_height="45.0dip"
+			android:layout_marginTop="9.0dip"
+			android:layout_marginStart="48.0dip"
+			android:layout_marginEnd="48.0dip"
+			android:id="@+id/bt_send"
+			android:orientation="horizontal"
+			android:gravity="center"
+			android:elevation="3dp">
+
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:text="@string/send"
+				android:gravity="center"
+				android:textColor="@color/colorLightWhite"
+				android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+				android:textStyle="bold"/>
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/bt_no"
+			android:layout_gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dp"
+			android:layout_marginBottom="@dimen/spacing_smlarge">
+
+			<TextView
+				android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+				android:textColor="@color/grey_40"
+				android:gravity="center_horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:text="@string/rating_dialog_maybe_later"/>
+
+		</LinearLayout>
+
+
+	</LinearLayout>
+</androidx.cardview.widget.CardView>
