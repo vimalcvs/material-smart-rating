@@ -27,7 +27,8 @@ Use the dialog as it is
 
 ## Installation
 
-### build.gradle Add JitPack repository to your build file
+### build.gradle 
+Add JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
 
 ```groovy
@@ -62,7 +63,7 @@ Author: [Vimal K. Vishwakarma](https://github.com/vimal)
 
 # License
 ```
-Copyright (C) 2020 Code My Vimal K. Vishwakarma
+Copyright (C) 2020 Code Mr. Vimal K. Vishwakarma
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
