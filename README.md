@@ -15,25 +15,18 @@ Google PlayStore.
 - Customizable button colors and backgrounds
 - Override dialog redirection to Google Play or Feedback form according to your needs
 
-If you want the dialog to appear on the Nth session of the app, just add the `session(N)` to the dialog builder method
- and move the code to the `onCreate()` method of your Activity class. The dialog will appear when the app is opened for the Nth time.
-
-## How to use
-
-## Add Email
-Add email **res/values/** to your **strings.xml** file
-```java
-    <string name="email">technovimalin@gmail.com</string>
-```
-
-
-Use the dialog as it is
-```java
-    RateDialogManager.showRateDialog(MainActivity.this, savedInstanceState);
-```
-
+If you want the dialog builder method and move the code to the `setOnClickListener()` method of your Activity class.
+ 
 ## Installation
 
+### Gradle
+Add it as a dependency in your app's build.gradle file
+
+```groovy
+dependencies {
+      implementation 'com.github.vimalcvs:Smart-Rating-App:v1.0.1'
+}
+```
 ### build.gradle 
 Add JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
@@ -46,15 +39,24 @@ allprojects {
 	}
 }
 ```
+## How to use
 
-### Gradle
-Add it as a dependency in your app's build.gradle file
+Use the dialog as it is `setOnClickListener()`
 
-```groovy
-dependencies {
-      implementation 'com.github.vimalcvs:Smart-Rating-App:v1.0.1'
-}
+```java
+    RateDialogManager.showRateDialog(MainActivity.this, savedInstanceState);
 ```
+
+## Add Email
+Add email **res/values/** to your **strings.xml** file
+```java
+    <string name="email">technovimalin@gmail.com</string>
+```
+
+
+
+
+
 ## Credits
 
 This project was initiated by **TechnoVimal.in**. You can contribute to this project by submitting issues or/and by forking this repo and sending a pull request.
