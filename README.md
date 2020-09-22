@@ -45,10 +45,9 @@ Add it as a dependency in your app's build.gradle file
 
 ```groovy
 dependencies {
-      implementation 'com.github.vimalcvs:Smart-Rating-App:1.0.0'
+      implementation 'com.github.vimalcvs:Smart-Rating-App:v1.0.1'
 }
 ```
-
 ## Credits
 
 This project was initiated by **TechnoVimal.in**. You can contribute to this project by submitting issues or/and by forking this repo and sending a pull request.
