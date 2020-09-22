@@ -24,7 +24,7 @@ Add it as a dependency in your app's build.gradle file
 
 ```groovy
 dependencies {
-      implementation 'com.github.vimalcvs:Smart-Rating-App:v1.0.1'
+      implementation 'com.github.vimalcvs:Smart-Rating-App:v1.0.0'
 }
 ```
 ### build.gradle 
