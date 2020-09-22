@@ -36,10 +36,10 @@
 				android:textAllCaps="false"/>
 
 			<TextView
-				android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+				android:textAppearance="@style/TextAppearance.AppCompat.Caption"
 				android:textAlignment="center"
 				android:enabled="false"
-				android:textColor="@color/grey_60"
+				android:textColor="@color/grey_50"
 				android:gravity="center"
 				android:layout_marginEnd="@dimen/spacing_30"
 				android:layout_marginStart="@dimen/spacing_30"
@@ -55,8 +55,7 @@
 		android:orientation="horizontal"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:layout_marginTop="24.0dip"
-		android:layout_marginBottom="24.0dip">
+		android:layout_marginTop="20.0dip">
 
 				<RatingBar
 					android:id="@+id/rb_stars"
@@ -64,17 +63,18 @@
 					android:orientation="horizontal"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:layout_marginBottom="10.0dip"
 					android:numStars="5"
 					android:stepSize="1.0"
+					android:scaleY="0.9"
+					android:scaleX="0.9"
 					android:theme="@style/MyRatingBar"/>
 	</LinearLayout>
 
 			<LinearLayout
 				android:background="@drawable/rounded_info"
 				android:layout_width="fill_parent"
-				android:layout_height="45.0dip"
-				android:layout_marginTop="9.0dip"
+				android:layout_height="35dp"
+				android:layout_marginTop="15.0dip"
 				android:layout_marginStart="48.0dip"
 				android:layout_marginEnd="48.0dip"
 				android:id="@+id/bt_later"
