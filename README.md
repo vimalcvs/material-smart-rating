@@ -20,6 +20,13 @@ If you want the dialog to appear on the Nth session of the app, just add the `se
 
 ## How to use
 
+## Add Email
+Add email **res/values/** to your **strings.xml** file
+```java
+    <string name="email">technovimalin@gmail.com</string>
+```
+
+
 Use the dialog as it is
 ```java
     RateDialogManager.showRateDialog(MainActivity.this, savedInstanceState);
