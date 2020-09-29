@@ -40,8 +40,7 @@ allprojects {
 }
 ```
 ## How to use
-Use the dialog as it is `setOnClickListener()`    
-<a href="https://github.com/vimalcvs/Smart-Rating-App/blob/master/app/src/main/java/com/indiandev/myrateapp/MainActivity.java">MainActivity.java</a>
+Use the dialog as it is `setOnClickListener()` Just like <a href="https://github.com/vimalcvs/Smart-Rating-App/blob/master/app/src/main/java/com/indiandev/myrateapp/MainActivity.java">MainActivity.java</a>
 ```java
     RateDialogManager.showRateDialog(MainActivity.this, savedInstanceState);
 ```
