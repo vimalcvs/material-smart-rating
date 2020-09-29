@@ -40,22 +40,35 @@ allprojects {
 }
 ```
 ## How to use
-
-Use the dialog as it is `setOnClickListener()`
-
+Use the dialog as it is `setOnClickListener()`    
+<a href="https://github.com/vimalcvs/Smart-Rating-App/blob/master/app/src/main/java/com/indiandev/myrateapp/MainActivity.java">MainActivity.java</a>
 ```java
     RateDialogManager.showRateDialog(MainActivity.this, savedInstanceState);
 ```
-
-## Add Email
-Add email **res/values/** to your **strings.xml** file
-```java
-    <string name="email">technovimalin@gmail.com</string>
+## Add Icon 
+Add email **drawable/ic_feedback.png** to your **drawable** file. Auto fetches the app icon to appear on top of the dialog.
+```xml
+    ...drawable/ic_feedback.png
+    ...drawable/ic_rate.png
 ```
-
-
-
-
+## Add Email
+Add email **res/values/** to your **strings.xml** file. Auto fetch the app email id.
+```xml
+....
+<resources>
+    <string name="email">technovimalin@gmail.com</string>
+....
+```
+## Add Button Color
+Add email **res/values/** to your **color.xml** file. Auto fetch the Button Color.
+```xml
+....
+   <resources>
+    <color name="colorPrimary">#00C86E</color>
+    <color name="colorPrimaryDark">#00C86E</color>
+    <color name="colorAccent">#073143</color>
+....
+```
 
 ## Credits
 
