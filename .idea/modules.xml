@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/My Rate App-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/My Rate App-app.iml" group="My Rate App/app" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/smartrateapp/My Rate App-smartrateapp.iml" filepath="$PROJECT_DIR$/.idea/modules/smartrateapp/My Rate App-smartrateapp.iml" group="My Rate App/smartrateapp" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/My_Rate_App.iml" filepath="$PROJECT_DIR$/.idea/modules/My_Rate_App.iml" group="My_Rate_App" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Smart-Rating-App-My_Rate_App.iml" filepath="$PROJECT_DIR$/.idea/modules/Smart-Rating-App-My_Rate_App.iml" group="My_Rate_App" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="My Rate App/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/smartrateapp/smartrateapp.iml" filepath="$PROJECT_DIR$/.idea/modules/smartrateapp/smartrateapp.iml" group="My Rate App/smartrateapp" />
     </modules>

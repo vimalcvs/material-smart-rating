@@ -9,7 +9,6 @@
 	app:cardElevation="3dp"
 	app:cardUseCompatPadding="true">
 
-
 	<LinearLayout
 		android:orientation="vertical"
 		android:layout_width="300dp"
@@ -22,8 +21,6 @@
 			android:layout_height="130.0dip"
 			android:layout_marginTop="42.0dip"/>
 
-
-
 		<TextView
 			android:textAppearance="@style/TextAppearance.AppCompat.Medium"
 			android:textStyle="bold"
@@ -32,8 +29,7 @@
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:layout_marginTop="40.0dip"
-			android:text="@string/feedback"
-			android:textAllCaps="false"/>
+			android:text="@string/feedback"/>
 
 
 
@@ -45,13 +41,14 @@
 			android:layout_marginTop="10.0dip"
 			android:layout_marginBottom="10.0dip">
 
+
 			<EditText
 				android:gravity="start"
 				android:id="@+id/et_feedback"
-				android:background="@drawable/background"
+				android:background="@drawable/rate_background"
 				android:padding="8dp"
 				android:layout_width="match_parent"
-				android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+				android:textAppearance="@style/TextAppearance.AppCompat.Small"
 				android:layout_height="match_parent"
 				android:layout_marginLeft="@dimen/spacing_large"
 				android:layout_marginTop="@dimen/spacing_large"
@@ -62,8 +59,12 @@
 
 		</LinearLayout>
 
+
+
+
+
 		<LinearLayout
-			android:background="@drawable/rounded_info"
+			android:background="@drawable/rate_rounded"
 			android:layout_width="fill_parent"
 			android:layout_height="35.0dip"
 			android:layout_marginTop="9.0dip"
@@ -74,6 +75,11 @@
 			android:gravity="center"
 			android:elevation="3dp">
 
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="?attr/selectableItemBackgroundBorderless">
+
 
 			<TextView
 				android:layout_width="match_parent"
@@ -83,26 +89,31 @@
 				android:textColor="@color/colorLightWhite"
 				android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
 				android:textStyle="bold"/>
+
+
+			</LinearLayout>
+
 		</LinearLayout>
 
 		<LinearLayout
 			android:id="@+id/bt_no"
-			android:layout_gravity="center"
+			android:gravity="center_horizontal"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:layout_marginTop="20dp"
-			android:layout_marginBottom="@dimen/spacing_smlarge">
-
-			<TextView
-				android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-				android:textColor="@color/grey_40"
-				android:gravity="center_horizontal"
-				android:layout_width="match_parent"
-				android:layout_height="match_parent"
-				android:text="@string/rating_dialog_maybe_later"/>
-
+			android:layout_marginTop="22dp"
+			android:layout_marginBottom="22dp">
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="?attr/selectableItemBackgroundBorderless">
+				<TextView
+					android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+					android:layout_width="match_parent"
+					android:gravity="center_horizontal"
+					android:layout_height="wrap_content"
+					android:text="@string/rating_dialog_maybe_later" />
+			</LinearLayout>
 		</LinearLayout>
-
 
 	</LinearLayout>
 </androidx.cardview.widget.CardView>

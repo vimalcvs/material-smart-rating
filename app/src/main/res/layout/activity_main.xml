@@ -26,12 +26,10 @@
 
 
         <TextView
-            android:id="@+id/tv_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/main_title"
-            android:textColor="@color/grey_60"
+            android:text="@string/app_name"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
 
@@ -45,6 +43,10 @@
             android:layout_marginEnd="48.0dip"
             android:elevation="3dp">
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/selectableItemBackgroundBorderless">
 
             <TextView
                 android:layout_width="match_parent"
@@ -54,6 +56,8 @@
                 android:textColor="@color/colorLightWhite"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textStyle="bold"/>
+
+            </LinearLayout>
 
         </LinearLayout>
 

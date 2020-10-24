@@ -25,11 +25,13 @@ public class MainActivity extends AppCompatActivity {
         linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                ///Rate Dialog
                 RateDialogManager.showRateDialog(MainActivity.this, savedInstanceState);
+
             }
         });
 
     }
-
 
 }

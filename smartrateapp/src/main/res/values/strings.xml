@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Smart Rate App</string>
-    <string name="main_title">Rating App - Library</string>
+    <string name="app_name">Smart Rate</string>
+    <string name="email">technovimalin@gmail.com</string>
     <string name="rate_app">Rate us 5 star</string>
     <string name="rate_app_dis">Support us by give 5 star and write your review</string>
     <string name="rating_dialog_maybe_later">Maybe later</string>
@@ -9,7 +9,4 @@
     <string name="feedback">Feedback</string>
     <string name="send">Send</string>
     <string name="rate_new">Rate now</string>
-    <string name="show_rate">Show Rating Dialog</string>
-
-    <string name="email">technovimalin@gmail.com</string>
 </resources>

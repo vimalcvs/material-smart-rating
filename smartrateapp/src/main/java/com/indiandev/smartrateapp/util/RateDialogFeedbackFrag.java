@@ -76,7 +76,7 @@ public class RateDialogFeedbackFrag extends RateDialogFrag implements View.OnCli
             intent.setType("text/plain");
             intent.setData(Uri.parse("mailto:"));
             intent.putExtra(Intent.EXTRA_EMAIL, new String[]{getString(R.string.email)});
-            intent.putExtra(Intent.EXTRA_SUBJECT, "Status Saver Apps Rating...!");
+            intent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.app_name)+" App Rating...!");
             intent.putExtra(Intent.EXTRA_TEXT, "Stars:- "+rating+"\n\nFeedback:- "+feedback);
             getActivity().startActivity(Intent.createChooser(intent, "Send email"));
         }

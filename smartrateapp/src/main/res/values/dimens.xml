@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="spacing_24">24dp</dimen>
-    <dimen name="spacing_smlarge">18dp</dimen>
     <dimen name="spacing_30">30dp</dimen>
     <dimen name="spacing_large">15dp</dimen>
     <dimen name="spacing_middle">10dp</dimen>
-    <dimen name="spacing_8">8dp</dimen>
 </resources>
