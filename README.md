@@ -42,7 +42,16 @@ allprojects {
 ## How to use
 Use the dialog as it is `setOnClickListener()` Just like <a href="https://github.com/vimalcvs/Smart-Rating-App/blob/master/app/src/main/java/com/indiandev/myrateapp/MainActivity.java">MainActivity.java</a>
 ```java
-    RateDialogManager.showRateDialog(MainActivity.this, savedInstanceState);
+        LinearLayout linearLayout = findViewById(R.id.rate_ok);
+        linearLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+	    
+                ///Rate Dialog
+                RateDialogManager.showRateDialog(MainActivity.this, savedInstanceState);
+
+            }
+        });
 ```
 ## Add Icon 
 Add email **drawable/ic_feedback.png** to your **drawable** file. Auto fetches the app icon to appear on top of the dialog.
