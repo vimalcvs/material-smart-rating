@@ -4,7 +4,7 @@
 Material Smart app rate dialog for Android which takes user rating into consideration. If the user rates the app below the defined threshold rating, the dialog will change into a feedback form. Otherwise, It will take the user to the
 Google PlayStore.
 
-<img src="demo.gif" width="35%"></img>
+<img src="demo.gif" width="35%"/>
 
 ## Features
 - Auto fetches the app icon to appear on top of the dialog
