@@ -19,26 +19,23 @@ If you want the dialog builder method and move the code to the `setOnClickListen
  
 ## Installation
 
-### Gradle
-Add it as a dependency in your app's build.gradle file
-
-```groovy
-dependencies {
-      implementation 'com.github.vimalcvs:Material-Smart-Rating:1.0.2'
-}
+Add jitpack in your root build.gradle at the end of repositories:
 ```
-### build.gradle 
-Add JitPack repository to your build file
-Add it in your root build.gradle at the end of repositories:
-
-```groovy
-allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
 	}
-}
 ```
+Step 2. Add the dependency
+
+```
+	dependencies {
+	         implementation 'com.github.vimalcvs:Material-Smart-Rating:1.0.2'
+	}
+```
+
 ## How to use
 Use the dialog as it is `setOnClickListener()` Just like <a href="https://github.com/vimalcvs/Material-Smart-Rating/blob/master/app/src/main/java/com/vimalcvs/myrateapp/MainActivity.java">MainActivity.java</a>
 ```java
