@@ -5,16 +5,16 @@
     android:viewportHeight="111.14">
   <path
       android:pathData="M61.374,66.212m-44.368,6.956a44.91,44.91 126.09,1 1,88.736 -13.912a44.91,44.91 126.09,1 1,-88.736 13.912"
-      android:fillColor="@color/rate_icon"/>
+      android:fillColor="@color/rate_icon_color"/>
   <path
       android:pathData="M54.02,0l1.99,4.61l4.6,1.98l-4.6,2l-1.99,4.6l-2,-4.6l-4.6,-2l4.6,-1.98l2,-4.61z"
-      android:fillColor="@color/rate_icon"/>
+      android:fillColor="@color/rate_icon_color"/>
   <path
       android:pathData="M119.81,46.34l1.57,3.64l3.63,1.57l-3.63,1.57l-1.57,3.64l-1.57,-3.64l-3.64,-1.57l3.64,-1.57l1.57,-3.64z"
-      android:fillColor="@color/rate_icon"/>
+      android:fillColor="@color/rate_icon_color"/>
   <path
       android:pathData="M3.85,49.88l1.15,2.69l2.69,1.16l-2.69,1.16l-1.15,2.68l-1.16,-2.68l-2.69,-1.16l2.69,-1.16l1.16,-2.69z"
-      android:fillColor="@color/rate_icon"/>
+      android:fillColor="@color/rate_icon_color"/>
   <path
       android:pathData="M98.42,11.52a4.3,4.3 0,1 1,-5.24 3.08A4.3,4.3 0,0 1,98.42 11.52Z"
       android:fillColor="#59c1ef"/>

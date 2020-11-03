@@ -36,7 +36,7 @@
         <LinearLayout
             android:id="@+id/rate_ok"
             android:background="@drawable/rounded_info"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="45.0dip"
             android:layout_marginTop="@dimen/spacing_30"
             android:layout_marginStart="48.0dip"

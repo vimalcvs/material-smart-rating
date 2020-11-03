@@ -1,7 +1,7 @@
-# Material Smart Rating App
-[![](https://jitpack.io/v/vimalcvs/Material-Smart-Rating.svg)](https://jitpack.io/#vimalcvs/Material-Smart-Rating)
+# Smart App Rate 
+<img src="https://raw.githubusercontent.com/vimalcvs/Smart-Rating-App/master/img/ic_launcher_round.png" alt="" width="100" height="auto" />
 
-Material Smart app rate dialog for Android which takes user rating into consideration. If the user rates the app below the defined threshold rating, the dialog will change into a feedback form. Otherwise, It will take the user to the
+Smart app rate dialog for Android which takes user rating into consideration. If the user rates the app below the defined threshold rating, the dialog will change into a feedback form. Otherwise, It will take the user to the
 Google PlayStore.
 
 <img src="https://raw.githubusercontent.com/vimalcvs/Smart-Rating-App/master/img/2.png" alt="" width="300" height="auto" />  <img src="https://raw.githubusercontent.com/vimalcvs/Smart-Rating-App/master/img/1.png" alt="" width="300" height="auto" />
@@ -19,24 +19,28 @@ If you want the dialog builder method and move the code to the `setOnClickListen
  
 ## Installation
 
-Add jitpack in your root build.gradle at the end of repositories:
-```
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-```
-Step 2. Add the dependency
+### Gradle
+Add it as a dependency in your app's build.gradle file
 
+```groovy
+dependencies {
+      implementation 'com.github.vimalcvs:Smart-Rating-App:v1.0.2'
+}
 ```
-	dependencies {
-	         implementation 'com.github.vimalcvs:Material-Smart-Rating:1.0.2'
+### build.gradle 
+Add JitPack repository to your build file
+Add it in your root build.gradle at the end of repositories:
+
+```groovy
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
-
 ## How to use
-Use the dialog as it is `setOnClickListener()` Just like <a href="https://github.com/vimalcvs/Material-Smart-Rating/blob/master/app/src/main/java/com/vimalcvs/myrateapp/MainActivity.java">MainActivity.java</a>
+Use the dialog as it is `setOnClickListener()` Just like <a href="https://github.com/vimalcvs/Smart-Rating-App/blob/master/app/src/main/java/com/indiandev/myrateapp/MainActivity.java">MainActivity.java</a>
 ```java
         LinearLayout linearLayout = findViewById(R.id.rate_ok);
         linearLayout.setOnClickListener(new View.OnClickListener() {

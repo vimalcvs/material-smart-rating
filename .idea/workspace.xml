@@ -12,7 +12,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_30" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="UUQDU19117000248" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -39,8 +39,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="UUQDU19117000248" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-11-03T06:00:10.660Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyApplication2" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
@@ -134,13 +136,13 @@
       <screen x="0" y="0" width="1473" height="864" />
     </state>
     <state x="596" y="263" key="AndroidCreateXmlResourceDialog/0.0.1473.864@0.0.1473.864" timestamp="1604331176940" />
-    <state x="517" y="187" key="FileChooserDialogImpl" timestamp="1604378334184">
+    <state x="517" y="187" key="FileChooserDialogImpl" timestamp="1604381829996">
       <screen x="0" y="0" width="1473" height="864" />
     </state>
-    <state x="517" y="187" key="FileChooserDialogImpl/0.0.1473.864@0.0.1473.864" timestamp="1604378334184" />
-    <state x="367" y="129" width="738" height="606" key="find.popup" timestamp="1604337215587">
+    <state x="517" y="187" key="FileChooserDialogImpl/0.0.1473.864@0.0.1473.864" timestamp="1604381829996" />
+    <state x="367" y="129" width="738" height="606" key="find.popup" timestamp="1604383103232">
       <screen x="0" y="0" width="1473" height="864" />
     </state>
-    <state x="367" y="129" width="738" height="606" key="find.popup/0.0.1473.864@0.0.1473.864" timestamp="1604337215587" />
+    <state x="367" y="129" width="738" height="606" key="find.popup/0.0.1473.864@0.0.1473.864" timestamp="1604383103232" />
   </component>
 </project>

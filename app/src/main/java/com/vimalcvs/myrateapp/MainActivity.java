@@ -11,8 +11,6 @@ import com.vimalcvs.materialrating.util.RateDialogManager;
 /**
  * Created by VimalCvs on 02/11/2020.
  */
-
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -22,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle(getString(R.string.app_name));
-
 
         LinearLayout linearLayout = findViewById(R.id.rate_ok);
         linearLayout.setOnClickListener(new View.OnClickListener() {
