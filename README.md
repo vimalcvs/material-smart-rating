@@ -1,7 +1,7 @@
-# Smart App Rate 
-<img src="https://raw.githubusercontent.com/vimalcvs/Smart-Rating-App/master/img/ic_launcher_round.png" alt="" width="100" height="auto" />
+# Material Smart Rating App
+[![](https://jitpack.io/v/vimalcvs/Material-Smart-Rating.svg)](https://jitpack.io/#vimalcvs/Material-Smart-Rating)
 
-Smart app rate dialog for Android which takes user rating into consideration. If the user rates the app below the defined threshold rating, the dialog will change into a feedback form. Otherwise, It will take the user to the
+Material Smart app rate dialog for Android which takes user rating into consideration. If the user rates the app below the defined threshold rating, the dialog will change into a feedback form. Otherwise, It will take the user to the
 Google PlayStore.
 
 <img src="https://raw.githubusercontent.com/vimalcvs/Smart-Rating-App/master/img/2.png" alt="" width="300" height="auto" />  <img src="https://raw.githubusercontent.com/vimalcvs/Smart-Rating-App/master/img/1.png" alt="" width="300" height="auto" />
