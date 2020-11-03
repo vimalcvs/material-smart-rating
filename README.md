@@ -1,6 +1,4 @@
 # Smart App Rate 
-[![](https://jitpack.io/v/vimalcvs/Smart-Rating-App.svg)](https://jitpack.io/#vimalcvs/Smart-Rating-App)
-
 <img src="https://raw.githubusercontent.com/vimalcvs/Smart-Rating-App/master/img/ic_launcher_round.png" alt="" width="100" height="auto" />
 
 Smart app rate dialog for Android which takes user rating into consideration. If the user rates the app below the defined threshold rating, the dialog will change into a feedback form. Otherwise, It will take the user to the

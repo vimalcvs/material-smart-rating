@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#00C86E</color>
+    <color name="colorLightWhite">#FFF4F4</color>
+    <color name="rate_active">#edbd31</color>
+    <color name="rate_normal">#959595</color>
+    <color name="rate_icon">#0d7eff</color>
+
+</resources>

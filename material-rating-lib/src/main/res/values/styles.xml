@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppRatingBar">
+        <item name="android:progressTint">@color/rate_active</item>
+        <item name="android:backgroundTint">@color/rate_normal</item>
+        <item name="android:secondaryProgressTint">@android:color/transparent</item>
+    </style>
+
+</resources>
