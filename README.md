@@ -24,7 +24,7 @@ Add it as a dependency in your app's build.gradle file
 
 ```groovy
 dependencies {
-      implementation 'com.github.vimalcvs:Smart-Rating-App:v1.0.2'
+      implementation 'com.github.vimalcvs:Material-Smart-Rating:1.0.2'
 }
 ```
 ### build.gradle 
@@ -40,7 +40,7 @@ allprojects {
 }
 ```
 ## How to use
-Use the dialog as it is `setOnClickListener()` Just like <a href="https://github.com/vimalcvs/Smart-Rating-App/blob/master/app/src/main/java/com/indiandev/myrateapp/MainActivity.java">MainActivity.java</a>
+Use the dialog as it is `setOnClickListener()` Just like <a href="https://github.com/vimalcvs/Material-Smart-Rating/blob/master/app/src/main/java/com/vimalcvs/myrateapp/MainActivity.java">MainActivity.java</a>
 ```java
         LinearLayout linearLayout = findViewById(R.id.rate_ok);
         linearLayout.setOnClickListener(new View.OnClickListener() {
