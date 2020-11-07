@@ -16,7 +16,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="OLD_API_22" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="UUQDU19117000248" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -43,8 +43,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="OLD_API_22" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-11-07T12:32:43.234Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="UUQDU19117000248" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-11-07T13:47:20.516Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyApplication2" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />

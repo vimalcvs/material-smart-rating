@@ -11,18 +11,18 @@
 
 	<LinearLayout
 		android:orientation="vertical"
-		android:layout_width="300dp"
+		android:layout_width="280dp"
 		android:layout_height="wrap_content">
 
 		<ImageView
 			android:layout_gravity="center_horizontal"
-			android:background="@drawable/ic_rate_feedback"
+			android:src="@drawable/ic_rate_star"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_marginTop="40.0dip"/>
 
 		<TextView
-			android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+			android:textAppearance="@style/TextAppearance.AppCompat.Menu"
 			android:textStyle="bold"
 			android:textColor="@color/rate_button_color"
 			android:gravity="center"
@@ -48,7 +48,7 @@
 				android:background="@drawable/rate_background"
 				android:padding="8dp"
 				android:layout_width="match_parent"
-				android:textAppearance="@style/TextAppearance.AppCompat.Small"
+				android:textAppearance="@style/TextAppearance.AppCompat.Caption"
 				android:layout_height="match_parent"
 				android:layout_marginLeft="@dimen/spacing_large"
 				android:layout_marginTop="@dimen/spacing_large"
@@ -81,14 +81,14 @@
 				android:background="?attr/selectableItemBackgroundBorderless">
 
 
-			<TextView
-				android:layout_width="match_parent"
-				android:layout_height="match_parent"
-				android:text="@string/send"
-				android:gravity="center"
-				android:textColor="@color/colorLightWhite"
-				android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
-				android:textStyle="bold"/>
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:text="@string/send"
+					android:gravity="center"
+					android:textColor="@color/colorLightWhite"
+					android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+					android:textStyle="bold"/>
 
 
 			</LinearLayout>
