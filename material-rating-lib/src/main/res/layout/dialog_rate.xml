@@ -17,8 +17,8 @@
 			<ImageView
 				android:layout_gravity="center_horizontal"
 				android:background="@drawable/ic_rate_star"
-				android:layout_width="140dp"
-				android:layout_height="126.76dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
 				android:layout_marginTop="40.0dip"/>
 
 			<TextView

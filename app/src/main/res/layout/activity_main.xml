@@ -13,7 +13,6 @@
         android:layout_height="?attr/actionBarSize"
         app:titleTextColor="@color/colorLightWhite"
         android:background="@color/colorPrimaryDark"
-        app:navigationIcon="@drawable/ic_launcher_foreground"
         app:titleTextAppearance="@style/TextAppearance.AppCompat.Medium.Inverse" />
 
 

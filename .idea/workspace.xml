@@ -5,6 +5,10 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f51a1938-d070-45f3-8b3e-498565168ef1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +16,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="UUQDU19117000248" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="OLD_API_22" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -39,8 +43,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="UUQDU19117000248" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-11-03T06:00:10.660Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="OLD_API_22" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-11-07T12:32:43.234Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyApplication2" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
@@ -50,10 +54,61 @@
       <recent name="C:\Users\vimal\AndroidStudioProjects\Smart-Rating-App\app" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android App.My Rate App-app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="My Rate App-app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="My Rate App-app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
@@ -124,10 +179,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="467" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604378469502">
+    <state x="467" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604752746115">
       <screen x="0" y="0" width="1473" height="864" />
     </state>
-    <state x="467" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1473.864@0.0.1473.864" timestamp="1604378469502" />
+    <state x="467" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1473.864@0.0.1473.864" timestamp="1604752746115" />
     <state x="317" y="187" key="AndroidCreateResourceFileDialog" timestamp="1604331171028">
       <screen x="0" y="0" width="1473" height="864" />
     </state>
@@ -136,10 +191,30 @@
       <screen x="0" y="0" width="1473" height="864" />
     </state>
     <state x="596" y="263" key="AndroidCreateXmlResourceDialog/0.0.1473.864@0.0.1473.864" timestamp="1604331176940" />
-    <state x="517" y="187" key="FileChooserDialogImpl" timestamp="1604381829996">
+    <state x="517" y="187" key="FileChooserDialogImpl" timestamp="1604752596047">
       <screen x="0" y="0" width="1473" height="864" />
     </state>
-    <state x="517" y="187" key="FileChooserDialogImpl/0.0.1473.864@0.0.1473.864" timestamp="1604381829996" />
+    <state x="517" y="187" key="FileChooserDialogImpl/0.0.1473.864@0.0.1473.864" timestamp="1604752596047" />
+    <state width="1428" height="443" key="GridCell.Tab.0.bottom" timestamp="1604749651587">
+      <screen x="0" y="0" width="1473" height="864" />
+    </state>
+    <state width="1428" height="443" key="GridCell.Tab.0.bottom/0.0.1473.864@0.0.1473.864" timestamp="1604749651587" />
+    <state width="1428" height="443" key="GridCell.Tab.0.center" timestamp="1604749651586">
+      <screen x="0" y="0" width="1473" height="864" />
+    </state>
+    <state width="1428" height="443" key="GridCell.Tab.0.center/0.0.1473.864@0.0.1473.864" timestamp="1604749651586" />
+    <state width="1428" height="443" key="GridCell.Tab.0.left" timestamp="1604749651585">
+      <screen x="0" y="0" width="1473" height="864" />
+    </state>
+    <state width="1428" height="443" key="GridCell.Tab.0.left/0.0.1473.864@0.0.1473.864" timestamp="1604749651585" />
+    <state width="1428" height="443" key="GridCell.Tab.0.right" timestamp="1604749651586">
+      <screen x="0" y="0" width="1473" height="864" />
+    </state>
+    <state width="1428" height="443" key="GridCell.Tab.0.right/0.0.1473.864@0.0.1473.864" timestamp="1604749651586" />
+    <state x="377" y="47" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604749671839">
+      <screen x="0" y="0" width="1473" height="864" />
+    </state>
+    <state x="377" y="47" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1473.864@0.0.1473.864" timestamp="1604749671839" />
     <state x="367" y="129" width="738" height="606" key="find.popup" timestamp="1604383103232">
       <screen x="0" y="0" width="1473" height="864" />
     </state>
