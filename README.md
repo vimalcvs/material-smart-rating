@@ -1,10 +1,10 @@
-# Smart App Rate 
-<img src="https://raw.githubusercontent.com/vimalcvs/Smart-Rating-App/master/img/ic_launcher_round.png" alt="" width="100" height="auto" />
+# Material Smart Rating App
+[![](https://jitpack.io/v/vimalcvs/Material-Smart-Rating.svg)](https://jitpack.io/#vimalcvs/Material-Smart-Rating)
 
-Smart app rate dialog for Android which takes user rating into consideration. If the user rates the app below the defined threshold rating, the dialog will change into a feedback form. Otherwise, It will take the user to the
+Material Smart app rate dialog for Android which takes user rating into consideration. If the user rates the app below the defined threshold rating, the dialog will change into a feedback form. Otherwise, It will take the user to the
 Google PlayStore.
 
-<img src="https://raw.githubusercontent.com/vimalcvs/Smart-Rating-App/master/img/2.png" alt="" width="300" height="auto" />  <img src="https://raw.githubusercontent.com/vimalcvs/Smart-Rating-App/master/img/1.png" alt="" width="300" height="auto" />
+<img src="demo.gif" width="35%"/>
 
 ## Features
 - Auto fetches the app icon to appear on top of the dialog
@@ -19,28 +19,24 @@ If you want the dialog builder method and move the code to the `setOnClickListen
  
 ## Installation
 
-### Gradle
-Add it as a dependency in your app's build.gradle file
-
-```groovy
-dependencies {
-      implementation 'com.github.vimalcvs:Smart-Rating-App:v1.0.2'
-}
+Add jitpack in your root build.gradle at the end of repositories:
 ```
-### build.gradle 
-Add JitPack repository to your build file
-Add it in your root build.gradle at the end of repositories:
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+```
+Step 2. Add the dependency
 
-```groovy
-allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
+```
+	dependencies {
+	         implementation 'com.github.vimalcvs:Material-Smart-Rating:1.0.3'
 	}
-}
 ```
+
 ## How to use
-Use the dialog as it is `setOnClickListener()` Just like <a href="https://github.com/vimalcvs/Smart-Rating-App/blob/master/app/src/main/java/com/indiandev/myrateapp/MainActivity.java">MainActivity.java</a>
+Use the dialog as it is `setOnClickListener()` Just like <a href="https://github.com/vimalcvs/Material-Smart-Rating/blob/master/app/src/main/java/com/vimalcvs/myrateapp/MainActivity.java">MainActivity.java</a>
 ```java
         LinearLayout linearLayout = findViewById(R.id.rate_ok);
         linearLayout.setOnClickListener(new View.OnClickListener() {
@@ -54,10 +50,10 @@ Use the dialog as it is `setOnClickListener()` Just like <a href="https://github
         });
 ```
 ## Add Icon 
-Add email **drawable/ic_feedback.png** to your **drawable** file. Auto fetches the app icon to appear on top of the dialog.
+Add email **drawable/ic_rate_feedback.png** to your **drawable** file. Auto fetches the app icon to appear on top of the dialog.
 ```xml
-    ...drawable/ic_feedback.png
-    ...drawable/ic_rate.png
+    ...drawable/ic_rate_feedback.png
+    ...drawable/ic_rate_star.png
 ```
 ## Add Email
 Add email **res/values/** to your **strings.xml** file. Auto fetch the app email id.
@@ -72,9 +68,11 @@ Add email **res/values/** to your **color.xml** file. Auto fetch the Button Colo
 ```xml
 ....
    <resources>
-    <color name="colorPrimary">#00C86E</color>
-    <color name="colorPrimaryDark">#00C86E</color>
-    <color name="colorAccent">#073143</color>
+    <color name="rate_icon_color">#0d7eff</color>
+    <color name="rate_button_color">#006cbc</color>
+	  
+    <color name="rate_active_color">#edbd31</color>
+    <color name="rate_normal_color">#959595</color>
 ....
 ```
 
@@ -88,7 +86,7 @@ Follow us on:
 
 [![Facebook](http://codemybrainsout.com/files/img/fb.png)](https://www.facebook.com/vimalcvs)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Twitter](http://codemybrainsout.com/files/img/tw.png)](https://twitter.com/vimalvishwakar6)
 
-Author: [Vimal K. Vishwakarma](https://github.com/vimal)
+Author: [Vimal K. Vishwakarma](https://github.com/vimalcvs)
 
 # License
 ```
