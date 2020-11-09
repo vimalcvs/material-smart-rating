@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.RatingBar;
 import android.widget.Toast;
@@ -51,7 +52,7 @@ public class RateDialogFrag extends DialogFragment implements RatingBar.OnRating
         getDialog().getWindow().requestFeature(Window.FEATURE_NO_TITLE);
 
 
-        final LinearLayout rateUs = view.findViewById(R.id.bt_later);
+        final Button rateUs = view.findViewById(R.id.bt_later);
         final LinearLayout later = view.findViewById(R.id.bt_never);
 
 

@@ -32,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="resourceFile" />
         <option value="valueResourceFile" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -44,13 +44,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="UUQDU19117000248" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-11-07T13:47:20.516Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-11-09T16:19:06.458Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyApplication2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/material-rating-lib/src/main/res/drawable-xhdpi" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vimal\AndroidStudioProjects\Material-Smart-Rating-1.0.3\material-rating-lib\src\main\res\drawable-xhdpi" />
       <recent name="C:\Users\vimal\AndroidStudioProjects\Smart-Rating-App\app" />
     </key>
   </component>
@@ -179,38 +180,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="467" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604752746115">
+    <state x="467" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604936659576">
       <screen x="0" y="0" width="1473" height="864" />
     </state>
-    <state x="467" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1473.864@0.0.1473.864" timestamp="1604752746115" />
-    <state x="317" y="187" key="AndroidCreateResourceFileDialog" timestamp="1604331171028">
+    <state x="467" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1473.864@0.0.1473.864" timestamp="1604936659576" />
+    <state x="317" y="187" key="AndroidCreateResourceFileDialog" timestamp="1604936644904">
       <screen x="0" y="0" width="1473" height="864" />
     </state>
-    <state x="317" y="187" key="AndroidCreateResourceFileDialog/0.0.1473.864@0.0.1473.864" timestamp="1604331171028" />
-    <state x="596" y="263" key="AndroidCreateXmlResourceDialog" timestamp="1604331176940">
+    <state x="317" y="187" key="AndroidCreateResourceFileDialog/0.0.1473.864@0.0.1473.864" timestamp="1604936644904" />
+    <state x="596" y="263" key="AndroidCreateXmlResourceDialog" timestamp="1604936481103">
       <screen x="0" y="0" width="1473" height="864" />
     </state>
-    <state x="596" y="263" key="AndroidCreateXmlResourceDialog/0.0.1473.864@0.0.1473.864" timestamp="1604331176940" />
-    <state x="517" y="187" key="FileChooserDialogImpl" timestamp="1604752596047">
+    <state x="596" y="263" key="AndroidCreateXmlResourceDialog/0.0.1473.864@0.0.1473.864" timestamp="1604936481103" />
+    <state x="517" y="187" key="FileChooserDialogImpl" timestamp="1604937063859">
       <screen x="0" y="0" width="1473" height="864" />
     </state>
-    <state x="517" y="187" key="FileChooserDialogImpl/0.0.1473.864@0.0.1473.864" timestamp="1604752596047" />
-    <state width="1428" height="443" key="GridCell.Tab.0.bottom" timestamp="1604749651587">
+    <state x="517" y="187" key="FileChooserDialogImpl/0.0.1473.864@0.0.1473.864" timestamp="1604937063859" />
+    <state width="1428" height="443" key="GridCell.Tab.0.bottom" timestamp="1604937454219">
       <screen x="0" y="0" width="1473" height="864" />
     </state>
-    <state width="1428" height="443" key="GridCell.Tab.0.bottom/0.0.1473.864@0.0.1473.864" timestamp="1604749651587" />
-    <state width="1428" height="443" key="GridCell.Tab.0.center" timestamp="1604749651586">
+    <state width="1428" height="443" key="GridCell.Tab.0.bottom/0.0.1473.864@0.0.1473.864" timestamp="1604937454219" />
+    <state width="1428" height="443" key="GridCell.Tab.0.center" timestamp="1604937454218">
       <screen x="0" y="0" width="1473" height="864" />
     </state>
-    <state width="1428" height="443" key="GridCell.Tab.0.center/0.0.1473.864@0.0.1473.864" timestamp="1604749651586" />
-    <state width="1428" height="443" key="GridCell.Tab.0.left" timestamp="1604749651585">
+    <state width="1428" height="443" key="GridCell.Tab.0.center/0.0.1473.864@0.0.1473.864" timestamp="1604937454218" />
+    <state width="1428" height="443" key="GridCell.Tab.0.left" timestamp="1604937454218">
       <screen x="0" y="0" width="1473" height="864" />
     </state>
-    <state width="1428" height="443" key="GridCell.Tab.0.left/0.0.1473.864@0.0.1473.864" timestamp="1604749651585" />
-    <state width="1428" height="443" key="GridCell.Tab.0.right" timestamp="1604749651586">
+    <state width="1428" height="443" key="GridCell.Tab.0.left/0.0.1473.864@0.0.1473.864" timestamp="1604937454218" />
+    <state width="1428" height="443" key="GridCell.Tab.0.right" timestamp="1604937454219">
       <screen x="0" y="0" width="1473" height="864" />
     </state>
-    <state width="1428" height="443" key="GridCell.Tab.0.right/0.0.1473.864@0.0.1473.864" timestamp="1604749651586" />
+    <state width="1428" height="443" key="GridCell.Tab.0.right/0.0.1473.864@0.0.1473.864" timestamp="1604937454219" />
     <state x="377" y="47" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604749671839">
       <screen x="0" y="0" width="1473" height="864" />
     </state>

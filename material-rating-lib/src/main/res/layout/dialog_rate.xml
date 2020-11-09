@@ -32,7 +32,7 @@
 			android:text="@string/rate_app"/>
 
 		<TextView
-			android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+			android:textAppearance="@style/TextAppearance.AppCompat.Small"
 			android:gravity="center"
 			android:layout_marginEnd="@dimen/spacing_30"
 			android:layout_marginStart="@dimen/spacing_30"
@@ -62,33 +62,19 @@
 
 		</LinearLayout>
 
-		<LinearLayout
-			android:background="@drawable/rate_rounded"
+
+		<Button
+			android:id="@+id/bt_later"
+			android:background="@drawable/rate_button_blue"
 			android:layout_width="match_parent"
-			android:layout_height="35dp"
-			android:layout_marginTop="15.0dip"
+			android:layout_height="35.0dip"
+			android:layout_marginTop="9.0dip"
 			android:layout_marginStart="48.0dip"
 			android:layout_marginEnd="48.0dip"
-			android:id="@+id/bt_later"
-			android:orientation="horizontal"
+			android:text="@string/rate_new"
 			android:gravity="center"
-			android:elevation="3dp">
-
-			<LinearLayout
-				android:layout_width="match_parent"
-				android:layout_height="match_parent"
-				android:background="?attr/selectableItemBackgroundBorderless">
-
-				<TextView
-					android:layout_width="match_parent"
-					android:layout_height="match_parent"
-					android:text="@string/rate_new"
-					android:gravity="center"
-					android:textColor="@color/colorLightWhite"
-					android:textAppearance="@style/TextAppearance.AppCompat.Small"
-					android:textStyle="bold"/>
-			</LinearLayout>
-		</LinearLayout>
+			android:textColor="@android:color/white"
+			android:textStyle="bold" />
 
 
 		<LinearLayout
@@ -108,6 +94,7 @@
 
 
 				<TextView
+					android:background="?attr/selectableItemBackgroundBorderless"
 					android:textAppearance="@style/TextAppearance.AppCompat.Caption"
 					android:layout_width="match_parent"
 					android:gravity="center_horizontal"

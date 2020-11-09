@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorLightWhite">#FFF4F4</color>
     <color name="rate_active_color">#edbd31</color>
     <color name="rate_normal_color">#959595</color>
-    <color name="rate_icon_color">#0d7eff</color>
     <color name="rate_button_color">#006cbc</color>
 </resources>

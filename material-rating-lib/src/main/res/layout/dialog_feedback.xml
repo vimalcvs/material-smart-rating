@@ -16,7 +16,7 @@
 
 		<ImageView
 			android:layout_gravity="center_horizontal"
-			android:src="@drawable/ic_rate_star"
+			android:src="@drawable/ic_rate_feedback"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_marginTop="40.0dip"/>
@@ -31,69 +31,41 @@
 			android:layout_marginTop="35.0dip"
 			android:text="@string/feedback"/>
 
-
-
 		<LinearLayout
-			android:gravity="center"
-			android:orientation="horizontal"
 			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:layout_marginTop="10.0dip"
-			android:layout_marginBottom="10.0dip">
-
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:padding="@dimen/spacing_large"
+			android:orientation="horizontal">
 
 			<EditText
-				android:gravity="start"
 				android:id="@+id/et_feedback"
-				android:background="@drawable/rate_background"
-				android:padding="8dp"
 				android:layout_width="match_parent"
-				android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-				android:layout_height="match_parent"
-				android:layout_marginLeft="@dimen/spacing_large"
-				android:layout_marginTop="@dimen/spacing_large"
-				android:layout_marginRight="@dimen/spacing_large"
-				android:layout_marginBottom="@dimen/spacing_middle"
+				android:layout_height="wrap_content"
+				android:background="@drawable/rate_background"
+				android:gravity="top"
 				android:hint="@string/write_your_feedback_here"
-				android:lines="5" />
-
+				android:lines="4"
+				android:textAppearance="@style/TextAppearance.AppCompat.Small"
+				android:padding="@dimen/spacing_middle" />
 		</LinearLayout>
 
 
 
-
-
-		<LinearLayout
-			android:background="@drawable/rate_rounded"
+		<Button
+			android:id="@+id/bt_send"
+			android:background="@drawable/rate_button_blue"
 			android:layout_width="match_parent"
 			android:layout_height="35.0dip"
 			android:layout_marginTop="9.0dip"
 			android:layout_marginStart="48.0dip"
 			android:layout_marginEnd="48.0dip"
-			android:id="@+id/bt_send"
-			android:orientation="horizontal"
+			android:text="@string/send"
 			android:gravity="center"
-			android:elevation="3dp">
-
-			<LinearLayout
-				android:layout_width="match_parent"
-				android:layout_height="match_parent"
-				android:background="?attr/selectableItemBackgroundBorderless">
+			android:textColor="@android:color/white"
+			android:textStyle="bold" />
 
 
-				<TextView
-					android:layout_width="match_parent"
-					android:layout_height="match_parent"
-					android:text="@string/send"
-					android:gravity="center"
-					android:textColor="@color/colorLightWhite"
-					android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
-					android:textStyle="bold"/>
-
-
-			</LinearLayout>
-
-		</LinearLayout>
 
 		<LinearLayout
 			android:id="@+id/bt_no"
