@@ -27,6 +27,7 @@ dependencies {
       implementation 'com.github.vimalcvs:Smart-Rating-App:v1.0.2'
 }
 ```
+<<<<<<< HEAD
 ### build.gradle 
 Add JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
@@ -36,6 +37,10 @@ allprojects {
 	repositories {
 		...
 		maven { url 'https://jitpack.io' }
+=======
+	dependencies {
+	         implementation 'com.github.vimalcvs:Material-Smart-Rating:1.0.5'
+>>>>>>> 863ffe70739f87eafc2138341f199b72fd927f46
 	}
 }
 ```
