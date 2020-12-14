@@ -24,9 +24,6 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle(getString(R.string.app_name));
 
-
-
-
         Button button = findViewById(R.id.rate_ok);
         button.setOnClickListener(new View.OnClickListener() {
             @Override

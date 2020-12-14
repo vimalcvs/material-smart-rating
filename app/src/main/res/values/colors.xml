@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#006cbc</color>
-    <color name="colorPrimaryDark">#006cbc</color>
-    <color name="colorAccent">#073143</color>
+    <color name="colorPrimaryDark">@color/colorPrimary</color>
+    <color name="colorAccent">@color/colorPrimary</color>
+    <color name="rate_button_color">@color/colorPrimary</color>
 </resources>

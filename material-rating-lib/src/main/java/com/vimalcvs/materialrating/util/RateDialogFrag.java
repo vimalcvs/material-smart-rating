@@ -10,15 +10,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.RatingBar;
 import android.widget.Toast;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.LinearLayoutCompat;
 import androidx.fragment.app.DialogFragment;
-
-
 import com.vimalcvs.materialratinglib.R;
 /**
  * Created by VimalCvs on 02/11/2020.
@@ -46,14 +43,14 @@ public class RateDialogFrag extends DialogFragment implements RatingBar.OnRating
 
         View view = inflater.inflate(R.layout.dialog_rate, container);
 
-        RatingBar rbStars = (RatingBar) view.findViewById(R.id.rb_stars);
+        RatingBar rbStars = view.findViewById(R.id.rb_stars);
         rbStars.setOnRatingBarChangeListener(this);
 
         getDialog().getWindow().requestFeature(Window.FEATURE_NO_TITLE);
 
 
-        final Button rateUs = view.findViewById(R.id.bt_later);
-        final LinearLayout later = view.findViewById(R.id.bt_never);
+        final Button rateUs = view.findViewById(R.id.bt_send);
+        final LinearLayoutCompat later = view.findViewById(R.id.bt_no);
 
 
         rateUs.setOnClickListener(new View.OnClickListener() {
@@ -93,5 +90,4 @@ public class RateDialogFrag extends DialogFragment implements RatingBar.OnRating
             dismiss();
         }
     }
-
 }

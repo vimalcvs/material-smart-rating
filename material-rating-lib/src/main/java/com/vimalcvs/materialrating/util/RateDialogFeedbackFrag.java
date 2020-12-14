@@ -1,7 +1,5 @@
 package com.vimalcvs.materialrating.util;
 
-
-
 import android.app.Dialog;
 import android.content.Intent;
 import android.net.Uri;
@@ -45,7 +43,7 @@ public class RateDialogFeedbackFrag extends RateDialogFrag implements View.OnCli
 
         View view = inflater.inflate(R.layout.dialog_feedback, container);
 
-        etFeedback = (EditText) view.findViewById(R.id.et_feedback);
+        etFeedback = view.findViewById(R.id.et_feedback);
 
         View bt = view.findViewById(R.id.bt_no);
         bt.setOnClickListener( this );

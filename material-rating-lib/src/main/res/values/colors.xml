@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="rate_active_color">#edbd31</color>
-    <color name="rate_normal_color">#959595</color>
+
+    <color name="rate_active_color">#FFFEBA39</color>
+    <color name="rate_normal_color">#FFA5A5A5</color>
     <color name="rate_button_color">#006cbc</color>
+
+
 </resources>
