@@ -32,7 +32,7 @@ Step 2. Add the dependency
 ```
 	dependencies {
 	
-	         implementation 'com.github.vimalcvs:Material-Smart-Rating:1.0.6'
+	         implementation 'com.github.vimalcvs:Material-Smart-Rating:1.0.7'
 	}
 ```
 
@@ -69,11 +69,7 @@ Add email **res/values/** to your **color.xml** file. Auto fetch the Button Colo
 ```xml
 ....
    <resources>
-    <color name="rate_icon_color">#0d7eff</color>
     <color name="rate_button_color">#006cbc</color>
-	  
-    <color name="rate_active_color">#edbd31</color>
-    <color name="rate_normal_color">#959595</color>
 ....
 ```
 
