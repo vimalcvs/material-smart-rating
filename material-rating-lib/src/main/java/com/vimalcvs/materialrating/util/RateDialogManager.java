@@ -9,7 +9,6 @@ import androidx.fragment.app.FragmentManager;
  * Created by VimalCvs on 02/11/2020.
  */
 
-
 public class RateDialogManager {
 
     public static void showRateDialog(Context context, Bundle savedInstanceState) {
