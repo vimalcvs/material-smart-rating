@@ -61,7 +61,7 @@ Add email **res/values/** to your **strings.xml** file. Auto fetch the app email
 ```xml
 ....
 <resources>
-    <string name="email">technovimalin@gmail.com</string>
+    <string name="email">example@email.com</string>
 ....
 ```
 ## Add Button Color
