@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Smart Rate</string>
-    <string name="email">technovimalin@gmail.com</string>
+    <string name="email">example@email.com</string>
     <string name="rate_app_dis">Support us by give 5 star\nand write your review</string>
     <string name="rating_dialog_maybe_later">Maybe later</string>
     <string name="write_your_feedback_here">Write your feedback here…</string>
