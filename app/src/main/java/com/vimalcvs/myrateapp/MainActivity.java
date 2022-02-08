@@ -1,38 +1,36 @@
 package com.vimalcvs.myrateapp;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
-import com.vimalcvs.materialrating.util.RateDialogManager;
+import com.google.android.material.appbar.MaterialToolbar;
+import com.vimalcvs.materialrating.MaterialFeedbackApp;
+import com.vimalcvs.materialrating.MaterialRatingApp;
 /**
- * Created by VimalCvs on 02/11/2020.
+ * Created by VimalCvs on 09/02/2022.
  */
 public class MainActivity extends AppCompatActivity {
-
-    Bundle rating;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toolbar toolbar = findViewById(R.id.toolbar);
+        MaterialToolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle(getString(R.string.app_name));
 
         Button button = findViewById(R.id.rate_ok);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        button.setOnClickListener(v -> {
+            MaterialRatingApp materialRatingApp = new MaterialRatingApp (this);
+            materialRatingApp.showNow(getSupportFragmentManager(), "");
+        });
 
-                //Rating Dialog
-                RateDialogManager.showRateDialog(MainActivity.this, rating);
-
-            }
+        Button feedback = findViewById(R.id.feedback_ok);
+        feedback.setOnClickListener(v -> {
+            MaterialFeedbackApp bottomSheetDialog = new MaterialFeedbackApp ("youremailid@gmail.com");
+            bottomSheetDialog.showNow(getSupportFragmentManager(), "");
         });
     }
 }

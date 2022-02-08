@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/lib_rate_dialog_bg"
+    android:layout_gravity="bottom">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/rate_emoji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/lib_rate_emoji_star_0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline1" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rate_emoji">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="@dimen/dp_30"
+                android:id="@+id/rate_result_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lib_rate_dialog_tip"
+                android:textColor="@color/lib_rate_dialog_message_text_color"
+                android:textSize="@dimen/sp_20"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                app:autoSizeMaxTextSize="@dimen/sp_20"
+                app:autoSizeMinTextSize="@dimen/sp_10"
+                android:paddingHorizontal="5dp"
+                android:layout_marginHorizontal="5dp"
+                app:autoSizeStepGranularity="1sp"
+                app:autoSizeTextType="uniform"
+                android:maxLines="2"
+                android:fontFamily="@string/lib_rate_roboto_medium"/>
+
+            <TextView
+                android:id="@+id/rate_result_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/lib_rate_five_stars_confirm_tip"
+                android:textColor="@color/lib_rate_dialog_message_text_color"
+                android:textSize="@dimen/sp_17"
+                android:gravity="center"
+                android:layout_marginHorizontal="@dimen/dp_15"
+                android:layout_marginVertical="@dimen/dp_8"
+                android:paddingHorizontal="@dimen/dp_10"
+                android:fontFamily="@string/lib_rate_roboto_medium"
+                android:maxLines="2"
+                app:autoSizeMaxTextSize="@dimen/sp_17"
+                app:autoSizeMinTextSize="@dimen/sp_10"
+                app:autoSizeStepGranularity="1sp"
+                app:autoSizeTextType="uniform" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatRatingBar
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/rtb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:stepSize="1"
+                    style="@style/lib_rate_rating_bar"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_16"
+                    app:srcCompat="@drawable/lib_rate_star_plus"
+                    app:layout_constraintLeft_toRightOf="@+id/rtb"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/lib_rate_star_here"
+                    app:layout_constraintRight_toRightOf="@+id/rtb"
+                    app:layout_constraintTop_toBottomOf="@+id/rtb"
+                    />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lib_rate_five_stars_tip"
+                android:textColor="@color/lib_rate_dialog_five_star_tip_color"
+                android:textSize="@dimen/sp_18"
+                android:fontFamily="@string/lib_rate_roboto_medium"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/dp_15"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:maxLines="2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rate_hand_layout"
+                android:layout_marginStart="@dimen/dp_32"
+                android:layout_marginLeft="@dimen/dp_32"
+                android:layout_marginTop="@dimen/dp_18"
+                android:layout_marginEnd="@dimen/dp_32"
+                android:layout_marginRight="@dimen/dp_32"
+                android:layout_marginBottom="@dimen/dp_32"
+                android:background="@drawable/lib_rate_button_bg"
+                android:gravity="right|center_vertical|center_horizontal|center|end"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/lib_rate_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_16"
+                    android:layout_marginTop="@dimen/dp_2"
+                    android:layout_marginEnd="@dimen/dp_16"
+                    android:layout_marginBottom="@dimen/dp_2"
+                    android:background="?attr/selectableItemBackground"
+                    android:fontFamily="@string/lib_rate_roboto_medium"
+                    android:gravity="center"
+                    android:minHeight="@dimen/dp_48"
+                    android:text="@string/lib_rate_btn_rate"
+                    android:textAllCaps="true"
+                    android:textColor="@color/lib_rate_button_text_color"
+                    android:textSize="@dimen/sp_18"
+                    app:autoSizeMaxTextSize="@dimen/sp_18"
+                    app:autoSizeMinTextSize="@dimen/sp_10"
+                    app:autoSizeStepGranularity="1sp"
+                    app:autoSizeTextType="uniform" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

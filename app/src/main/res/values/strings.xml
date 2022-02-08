@@ -1,5 +1,4 @@
 <resources>
     <string name="app_name">Material Smart Rate</string>
-    <string name="show_rate">Show Rate</string>
-     <string name="email">example@email.com</string>
+    <string name="rate_show">Rate Show</string>
 </resources>
