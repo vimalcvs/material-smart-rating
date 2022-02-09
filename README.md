@@ -23,6 +23,7 @@ Add jetpack in your root build. Gradle at the end of repositories:
 ```
 	allprojects {
 		repositories {
+		
 			...
 			maven { url 'https://jitpack.io' }
 		}
@@ -32,7 +33,9 @@ Step 2. Add the dependency
 ```
 	dependencies {
 	
-	     implementation 'com.github.vimalcvs:Material-Smart-Rating:2.0.0'
+	         ...
+	         implementation 'com.github.vimalcvs:Material-Smart-Rating:2.2.2'
+	 
 	}
 ```
 
