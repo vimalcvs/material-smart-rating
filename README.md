@@ -4,7 +4,7 @@
 Material Smart app rate dialogue for Android, which considers user rating. The conference will give feedback if the user rates the app below the defined threshold rating. Otherwise, It will take the user to the
 Google PlayStore.
 
-<img src="demo.gif" width="35%"/>
+<img src="demo.jpg" width="90%"/>
 
 ## Features
 - Auto fetches the app icon to appear on top of the dialogue
