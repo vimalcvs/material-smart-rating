@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="lib_rate_rating_bar" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressDrawable">@drawable/lib_rate_ratingbar_full</item>
+        <item name="android:indeterminateDrawable">@drawable/lib_rate_ratingbar_full</item>
+    </style>
+
+    <style name="lib_rate_round_corner" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="android:windowBackground">@null</item>
+    </style>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="lib_rate_btn_go_market">Rate on Google play</string>
+    <string name="lib_rate_btn_rate">Rate</string>
+    <string name="lib_rate_dialog_tip">We are working hard for a better user experience.</string>
+    <string name="lib_rate_five_stars_confirm_tip">We’d greatly appreciate if you can rate us.</string>
+    <string name="lib_rate_five_stars_tip">The best we can get :)</string>
+    <string name="lib_rate_leave_feedback">Please leave us some feedback.</string>
+    <string name="lib_rate_thanks_feedback">Thanks for your feedback.</string>
+    <string name="lib_rate_like_you">We like you too!</string>
+    <string name="lib_rate_oh_no">Oh, no!</string>
+    <string name="lib_rate_feedback_write">Write your feedback here…</string>
+    <string name="lib_rate_roboto_medium">sans-serif-medium</string>
+    <string name="lib_rate_lib_feedback">Feedback</string>
+</resources>
