@@ -34,7 +34,7 @@ Step 2. Add the dependency
 	dependencies {
 	
 	         ...
-	         implementation 'com.github.vimalcvs:Material-Smart-Rating:2.2.2'
+	         implementation 'com.github.vimalcvs:Material-Smart-Rating:3.0.0'
 	 
 	}
 ```
