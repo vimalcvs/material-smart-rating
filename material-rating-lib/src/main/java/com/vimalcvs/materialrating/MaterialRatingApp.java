@@ -17,7 +17,7 @@ import androidx.annotation.NonNull;
 
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
-import com.vimalcvs.materialratinglib.R;
+
 /**
  * Created by VimalCvs on 09/02/2022.
  */

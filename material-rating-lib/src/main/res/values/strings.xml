@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name"></string>
+    <string name="app_name">Material Smart Rating</string>
     <string name="lib_rate_btn_go_market">Rate on Google play</string>
     <string name="lib_rate_btn_rate">Rate</string>
     <string name="lib_rate_dialog_tip">We are working hard for a better user experience.</string>

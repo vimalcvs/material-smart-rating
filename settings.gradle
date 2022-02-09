@@ -1,3 +1,10 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -5,6 +12,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-include ':material-rating-lib'
+rootProject.name = "Material Rating"
 include ':app'
-rootProject.name = "My Rate App"
+include ':material-rating-lib'

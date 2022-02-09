@@ -1,4 +1,3 @@
 <resources>
-    <string name="app_name">Material Smart Rate</string>
-    <string name="rate_show">Rate Show</string>
+    <string name="app_name">Material Smart Rating</string>
 </resources>

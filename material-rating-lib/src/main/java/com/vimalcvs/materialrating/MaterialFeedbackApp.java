@@ -13,14 +13,14 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
-import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
-import com.vimalcvs.materialratinglib.R;
 /**
  * Created by VimalCvs on 09/02/2022.
  */
 public class MaterialFeedbackApp extends BottomSheetDialogFragment {
+
     private final String mText;
+
     public MaterialFeedbackApp(String email) {
         mText = email;
     }
@@ -28,7 +28,7 @@ public class MaterialFeedbackApp extends BottomSheetDialogFragment {
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         setStyle(STYLE_NORMAL, R.style.lib_rate_round_corner);
-        return (BottomSheetDialog)super.onCreateDialog(savedInstanceState);
+        return super.onCreateDialog(savedInstanceState);
     }
 
     TextView lib_feedback_button;
