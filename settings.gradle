@@ -12,6 +12,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Material Rating"
-include ':app'
 include ':material-rating-lib'
+include ':app'
+rootProject.name = "My Rate App"

@@ -1,0 +1,24 @@
+com.vimalcvs.materialratinglib
+color lib_material_color
+drawable lib_material_icon_feedback
+drawable lib_material_icon_rate_star
+drawable lib_material_icon_ratingbar
+drawable lib_material_icon_star_off
+drawable lib_material_icon_star_on
+id bt_feedbackSend
+id bt_maybeLater
+id bt_ratingBar
+id bt_ratingSend
+id et_feedback
+id icon
+id text_input
+layout lib_material_fragment_feedback
+layout lib_material_fragment_rating
+string app_name
+string lib_material_cancel
+string lib_material_feedback
+string lib_material_feedback_here
+string lib_material_rating
+string lib_material_send
+string lib_material_tips
+style lib_material_rating_style

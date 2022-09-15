@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Material Smart Rating</string>
+    <string name="app_name">Material Smart Rate</string>
+    <string name="show_rate">Show Rate</string>
+    <string name="rating_app">Rating this app</string>
+    <string name="feedback_app">Feedback this app</string>
+
 </resources>

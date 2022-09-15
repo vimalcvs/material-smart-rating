@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="ContentDescription"
+    android:padding="?dialogPreferredPadding">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/lib_material_icon_rate_star" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/lib_material_rating"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lib_material_tips"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="?android:textColorTertiary"
+            android:textSize="16sp"/>
+
+
+        <RatingBar
+            android:id="@+id/bt_ratingBar"
+            style="@style/lib_material_rating_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:numStars="5"
+            android:stepSize="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/bt_maybeLater"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lib_material_cancel"
+                android:textAllCaps="false"
+                android:textAppearance="?android:attr/textAppearanceButton"
+                style="@style/Widget.Material3.Button.TextButton.Dialog.Flush"/>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/bt_ratingSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lib_material_send"
+                android:layout_marginStart="15dp"
+                android:textAllCaps="false"
+                android:textAppearance="?android:attr/textAppearanceButton"
+                style="@style/Widget.Material3.Button.UnelevatedButton"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

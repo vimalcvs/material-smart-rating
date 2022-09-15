@@ -1,0 +1,78 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vimalcvs.myrateapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\TECHNOVIMAL\AndroidStudioProjects\UI\Material-Smart-Rating\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\TECHNOVIMAL\AndroidStudioProjects\UI\Material-Smart-Rating\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\TECHNOVIMAL\AndroidStudioProjects\UI\Material-Smart-Rating\app\src\main\AndroidManifest.xml:6:5-26:19
+12        android:allowBackup="true"
+12-->C:\Users\TECHNOVIMAL\AndroidStudioProjects\UI\Material-Smart-Rating\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\TECHNOVIMAL\.gradle\caches\transforms-3\0638d9dacb5fd10604e28ec2b4d3c80b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->C:\Users\TECHNOVIMAL\AndroidStudioProjects\UI\Material-Smart-Rating\app\src\main\AndroidManifest.xml:8:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->C:\Users\TECHNOVIMAL\AndroidStudioProjects\UI\Material-Smart-Rating\app\src\main\AndroidManifest.xml:9:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\TECHNOVIMAL\AndroidStudioProjects\UI\Material-Smart-Rating\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\TECHNOVIMAL\AndroidStudioProjects\UI\Material-Smart-Rating\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\TECHNOVIMAL\AndroidStudioProjects\UI\Material-Smart-Rating\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\TECHNOVIMAL\AndroidStudioProjects\UI\Material-Smart-Rating\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.MyApplication" >
+22-->C:\Users\TECHNOVIMAL\AndroidStudioProjects\UI\Material-Smart-Rating\app\src\main\AndroidManifest.xml:14:9-51
+23        <activity
+23-->C:\Users\TECHNOVIMAL\AndroidStudioProjects\UI\Material-Smart-Rating\app\src\main\AndroidManifest.xml:16:9-25:20
+24            android:name="com.vimalcvs.myrateapp.MainActivity"
+24-->C:\Users\TECHNOVIMAL\AndroidStudioProjects\UI\Material-Smart-Rating\app\src\main\AndroidManifest.xml:17:13-41
+25            android:exported="true"
+25-->C:\Users\TECHNOVIMAL\AndroidStudioProjects\UI\Material-Smart-Rating\app\src\main\AndroidManifest.xml:18:13-36
+26            android:theme="@style/Theme.MyApplication" >
+26-->C:\Users\TECHNOVIMAL\AndroidStudioProjects\UI\Material-Smart-Rating\app\src\main\AndroidManifest.xml:19:13-55
+27            <intent-filter>
+27-->C:\Users\TECHNOVIMAL\AndroidStudioProjects\UI\Material-Smart-Rating\app\src\main\AndroidManifest.xml:20:13-24:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\TECHNOVIMAL\AndroidStudioProjects\UI\Material-Smart-Rating\app\src\main\AndroidManifest.xml:21:17-69
+28-->C:\Users\TECHNOVIMAL\AndroidStudioProjects\UI\Material-Smart-Rating\app\src\main\AndroidManifest.xml:21:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\TECHNOVIMAL\AndroidStudioProjects\UI\Material-Smart-Rating\app\src\main\AndroidManifest.xml:23:17-77
+30-->C:\Users\TECHNOVIMAL\AndroidStudioProjects\UI\Material-Smart-Rating\app\src\main\AndroidManifest.xml:23:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <provider
+34-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TECHNOVIMAL\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+35            android:name="androidx.startup.InitializationProvider"
+35-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TECHNOVIMAL\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+36            android:authorities="com.vimalcvs.myrateapp.androidx-startup"
+36-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TECHNOVIMAL\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+37            android:exported="false" >
+37-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TECHNOVIMAL\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+38            <meta-data
+38-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TECHNOVIMAL\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+39                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TECHNOVIMAL\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+40                android:value="androidx.startup" />
+40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TECHNOVIMAL\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+41            <meta-data
+41-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\TECHNOVIMAL\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+42                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+42-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\TECHNOVIMAL\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+43                android:value="androidx.startup" />
+43-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\TECHNOVIMAL\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+44        </provider>
+45    </application>
+46
+47</manifest>

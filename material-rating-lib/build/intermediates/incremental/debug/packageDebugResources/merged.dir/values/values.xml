@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lib_material_color">?attr/colorPrimary</color>
+    <string name="app_name">Smart Rate</string>
+    <string name="lib_material_cancel">Cancel</string>
+    <string name="lib_material_feedback">Feedback</string>
+    <string name="lib_material_feedback_here">Write your feedback here…</string>
+    <string name="lib_material_rating">Rate this app</string>
+    <string name="lib_material_send">Send</string>
+    <string name="lib_material_tips">Support us by give five star and write your review</string>
+    <style name="lib_material_rating_style" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressDrawable">@drawable/lib_material_icon_ratingbar</item>
+        <item name="android:indeterminateDrawable">@drawable/lib_material_icon_ratingbar</item>
+    </style>
+</resources>
