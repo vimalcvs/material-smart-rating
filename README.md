@@ -9,7 +9,7 @@ Material3 Smart app rate dialog for Android which takes user rating into conside
 ### Themes 
 | Light | Dark | Rate | Feedback |
 |:---:|:---:|:---:|:---:|
-| <img src="gif/light.gif" width="200"/> | <img src="gif/dark.gif" width="200"/> | <img src="gif/image1.jpg" width="200"/> | <img src="gif/image2.jpg" width="200"/> |
+| <img src="gif/light.gif" width="180"/> | <img src="gif/dark.gif" width="180"/> | <img src="gif/image1.jpg" width="200"/> | <img src="gif/image2.jpg" width="200"/> |
 
 <b>Note</b>: This library best support ```Theme.Material3.DayNight```.
 
