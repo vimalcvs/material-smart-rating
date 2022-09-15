@@ -1,13 +1,16 @@
 plugins {
     id 'com.android.library'
+    id 'maven-publish'
 }
+
+group = 'com.github.jitpack'
+version = '6.0.0'
+
 android {
-    compileSdk 32
+    compileSdkVersion 33
     defaultConfig {
-        minSdk 21
-        targetSdk 32
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles "consumer-rules.pro"
+        minSdkVersion 21
+        targetSdkVersion 33
     }
 
     buildTypes {
@@ -24,4 +27,17 @@ android {
 
 dependencies {
     implementation 'com.google.android.material:material:1.8.0-alpha01'
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.jitpack'
+                artifactId = 'material-smart-rating'
+                version = '6.0.0'
+            }
+        }
+    }
 }

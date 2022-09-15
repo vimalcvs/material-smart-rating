@@ -16,7 +16,6 @@ import androidx.fragment.app.DialogFragment;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
-import com.vimalcvs.materialratinglib.R;
 
 /**
  * Created by VimalCvs on 02/11/2020.
