@@ -1,10 +1,17 @@
-# Material Smart Rating App
+# Material Design3 Smart Rating for Android
+[![Android CI](https://github.com/prathameshmm02/ThemeEngine/actions/workflows/android.yml/badge.svg)](https://github.com/prathameshmm02/ThemeEngine/actions/workflows/android.yml)
 [![](https://jitpack.io/v/vimalcvs/Material-Smart-Rating.svg)](https://jitpack.io/#vimalcvs/Material-Smart-Rating)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Material Smart app rate dialog for Android which takes user rating into consideration. If the user rates the app below the defined threshold rating, the dialog will change into a feedback form. Otherwise, It will take the user to the
-Google PlayStore.
+Material3 Smart app rate dialog for Android which takes user rating into consideration. If the user rates the app below the defined threshold rating, the dialog will change into a feedback form. Otherwise, It will take the user to the Google Play Store.
 
-<img src="demo.gif" width="35%"/>
+## Screenshots
+### Themes 
+| Light | Dark | Rate | Feedback |
+|:---:|:---:|:---:|:---:|
+| <img src="gif/light.gif" width="200"/> | <img src="gif/dark.gif" width="200"/> | <img src="gif/image1.jpg" width="200"/> | <img src="gif/image2.jpg" width="200"/> |
+
+<b>Note</b>: This library best support ```Theme.Material3.DayNight```.
 
 ## Features
 - Auto fetches the app icon to appear on top of the dialog
@@ -32,49 +39,34 @@ Step 2. Add the dependency
 ```
 	dependencies {
 	
-	         implementation 'com.github.vimalcvs:Material-Smart-Rating:1.0.6'
+	        implementation 'com.github.vimalcvs:material-smart-rating:6.0.0'
 	}
 ```
 
 ## How to use
-Use the dialog as it is `setOnClickListener()` Just like <a href="https://github.com/vimalcvs/Material-Smart-Rating/blob/master/app/src/main/java/com/vimalcvs/myrateapp/MainActivity.java">MainActivity.java</a>
+Use the dialog as it is `setOnClickListener()` Just like <a href="https://github.com/vimalcvs/material-smart-rating/blob/master/app/src/main/java/com/vimalcvs/myapplication/MainActivity.java">MainActivity.java</a>
 ```java
-        LinearLayout linearLayout = findViewById(R.id.rate_ok);
-        linearLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-	    
-                ///Rate Dialog
-                RateDialogManager.showRateDialog(MainActivity.this, savedInstanceState);
 
-            }
+        Button rating_app = findViewById(R.id.rating_app);
+        rating_app.setOnClickListener(v -> {
+	
+	   //Rating
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            MaterialRating feedBackDialog = new MaterialRating();
+            feedBackDialog.show(fragmentManager, "rating");
+	    
+	    
         });
-```
-## Add Icon 
-Add email **drawable/ic_rate_feedback.png** to your **drawable** file. Auto fetches the app icon to appear on top of the dialog.
-```xml
-    ...drawable/ic_rate_feedback.png
-    ...drawable/ic_rate_star.png
-```
-## Add Email
-Add email **res/values/** to your **strings.xml** file. Auto fetch the app email id.
-```xml
-....
-<resources>
-    <string name="email">technovimalin@gmail.com</string>
-....
-```
-## Add Button Color
-Add email **res/values/** to your **color.xml** file. Auto fetch the Button Color.
-```xml
-....
-   <resources>
-    <color name="rate_icon_color">#0d7eff</color>
-    <color name="lib_material_color">#006cbc</color>
-	  
-    <color name="rate_active_color">#edbd31</color>
-    <color name="rate_normal_color">#959595</color>
-....
+	
+        Button feedback_app = findViewById(R.id.feedback_app);
+        feedback_app.setOnClickListener(v -> {
+	
+	   //Feedback
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            MaterialFeedback materialFeedback = new MaterialFeedback("technovimalin@gmail.com");
+            materialFeedback.show(fragmentManager, "feedback");
+	    
+        });
 ```
 
 ## Credits
