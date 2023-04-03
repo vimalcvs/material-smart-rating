@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Smart Rate</string>
-    <string name="lib_material_send">Send</string>
-    <string name="lib_material_cancel">Cancel</string>
-    <string name="lib_material_feedback">Feedback</string>
-    <string name="lib_material_feedback_here">Write your feedback here…</string>
-    <string name="lib_material_rating">Rate this app</string>
-    <string name="lib_material_tips">Support us by give five star and write your review</string>
+    <string name="app_name">Rate App</string>
+    <string name="select_5_star_rating">Please select a 5-star rating!</string>
+    <string name="cancel">Cancel</string>
+    <string name="dialog_five_star_title">Enjoying %s App?</string>
+    <string name="rate_tips">Tap a star to rate it on the \nPlay Store.</string>
+    <string name="roboto_light">sans-serif-light</string>
+    <string name="roboto_medium">sans-serif-medium</string>
+    <string name="roboto_regular">sans-serif</string>
+    <string name="search_menu_title">Search</string>
+    <string name="send_mail">Send mail…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="subject_email">%s Feedback</string>
+    <string name="submits">Submit</string>
 </resources>

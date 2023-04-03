@@ -4,15 +4,14 @@ plugins {
 }
 
 group = 'com.github.jitpack'
-version = '6.0.0'
+version = '6.0.1'
 
 android {
     compileSdkVersion 33
     defaultConfig {
-        minSdkVersion 21
+        minSdkVersion 19
         targetSdkVersion 33
     }
-
     buildTypes {
         release {
             minifyEnabled false
@@ -20,13 +19,16 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 }
 
 dependencies {
-    implementation 'com.google.android.material:material:1.8.0-alpha01'
+
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation "com.airbnb.android:lottie:5.2.0"
+    implementation 'com.github.vimalcvs:multi-dimens:1.1.0'
 }
 
 afterEvaluate {
@@ -36,7 +38,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.jitpack'
                 artifactId = 'material-smart-rating'
-                version = '6.0.0'
+                version = '6.0.1'
             }
         }
     }

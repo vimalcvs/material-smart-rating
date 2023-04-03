@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/dp_20"
+    app:cardElevation="@dimen/dp_5"
+
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/icon"
+            android:layout_width="@dimen/dp_140"
+            android:layout_height="@dimen/dp_140"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/lib_rate"
+            app:lottie_loop="true" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/roboto_medium"
+            android:gravity="center"
+            android:padding="@dimen/dp_5"
+            android:text="@string/dialog_five_star_title"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="@dimen/cm_sp_17" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/cm_dp_3"
+            android:fontFamily="@string/roboto_regular"
+            android:gravity="center"
+            android:padding="@dimen/dp_5"
+            android:text="@string/rate_tips"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="@dimen/cm_sp_14" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="@dimen/cm_dp_10"
+            android:background="?colorControlHighlight" />
+
+        <RatingBar
+            android:id="@+id/bt_ratingBar"
+            style="@style/lib_material_rating_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="?dialogPreferredPadding"
+            android:layout_marginEnd="?dialogPreferredPadding"
+            android:gravity="center"
+            android:numStars="5"
+            android:stepSize="1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="?colorControlHighlight" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bt_maybeLater"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:fontFamily="@string/roboto_light"
+                android:gravity="center"
+                android:padding="@dimen/dp_10"
+                android:text="@string/cancel"
+                android:textColor="?colorAccent"
+                android:textSize="@dimen/sp_15" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="55dp"
+                android:background="?colorControlHighlight" />
+
+            <TextView
+                android:id="@+id/bt_ratingSend"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:fontFamily="@string/roboto_medium"
+                android:gravity="center"
+                android:padding="@dimen/dp_10"
+                android:text="@string/submits"
+                android:textColor="?android:textColorSecondary"
+                android:textSize="@dimen/sp_15" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

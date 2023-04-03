@@ -6,10 +6,10 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 
-import com.vimalcvs.materialrating.MaterialFeedback;
-import com.vimalcvs.materialrating.MaterialRating;
+import com.vimalcvs.materialrating.RatingDialog;
 
 public class MainActivity extends AppCompatActivity {
+    private final String email = "example@email.com";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,17 +18,13 @@ public class MainActivity extends AppCompatActivity {
 
         Button rating_app = findViewById(R.id.rating_app);
         rating_app.setOnClickListener(v -> {
-            FragmentManager fragmentManager = getSupportFragmentManager();
-            MaterialRating feedBackDialog = new MaterialRating();
-            feedBackDialog.show(fragmentManager, "rating");
+            RatingDialog.showRateAppDialogAuto(getSupportFragmentManager(), this, 1, email);
         });
-
 
         Button feedback_app = findViewById(R.id.feedback_app);
         feedback_app.setOnClickListener(v -> {
-            FragmentManager fragmentManager = getSupportFragmentManager();
-            MaterialFeedback materialFeedback = new MaterialFeedback("technovimalin@gmail.com");
-            materialFeedback.show(fragmentManager, "feedback");
+            RatingDialog.showRateAppDialogNormal(getSupportFragmentManager(), this, email);
+
         });
     }
 }
